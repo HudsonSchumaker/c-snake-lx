@@ -1,2 +1,2 @@
-build:
-	gcc -std=c17 -Wall -Wextra main.c -o snake -lncurses
+compile:
+	gcc -std=c17 -Wall -Wextra src/main.c -o build/snake -lncurses

@@ -21,24 +21,35 @@ To compile the game, run the following command:
 
 ```sh
 make build
+```
 
-This will generate an executable named snake.
+This will generate an executable named `snake`.
 
-Run
+### Run
+
 To play the game, execute the following command:
 
+```sh
 ./snake
+```
 
-Controls
-Use the arrow keys to move the snake.
-Press q to quit the game.
-Game Rules
-The snake moves continuously in the current direction.
-Collect the * (fruit) to grow the snake.
-The game ends if the snake collides with the walls or itself.
-File Structure
-main.c: Contains the game logic and rendering code.
-Makefile: Build script for compiling the game.
-snake: The compiled executable (generated after running make build).
-License
+### Controls
+
+- Use the arrow keys to move the snake.
+- Press `q` to quit the game.
+
+### Game Rules
+
+- The snake moves continuously in the current direction.
+- Collect the `*` (fruit) to grow the snake.
+- The game ends if the snake collides with the walls or itself.
+
+### File Structure
+
+- `main.c`: Contains the game logic and rendering code.
+- `Makefile`: Build script for compiling the game.
+- `snake`: The compiled executable (generated after running `make build`).
+
+### License
+
 This project is open-source and available under the MIT License.
