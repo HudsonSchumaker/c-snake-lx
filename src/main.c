@@ -1,3 +1,15 @@
+/*
+    Snake Game in C using ncurses
+    This is a simple implementation of the classic Snake game.
+    The snake moves around the screen, eating fruit and growing longer.
+    The game ends when the snake collides with itself or the walls.
+    
+    Compile with: gcc -std=c17 -Wall -Wextra main.c -o snake -lncurses
+    Run with: ./snake
+
+    hurdi-lab - 2025
+    hudson schumaker
+*/
 #include <time.h>
 #include <stdlib.h>
 #include <ncurses.h>
@@ -137,4 +149,3 @@ int main() {
     endwin();
     return 0;
 }
-
